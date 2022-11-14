@@ -1,0 +1,38 @@
+@media (max-width: 650px) {
+	img {
+		max-width: 200px;
+	}
+	.section {
+		margin-left: 30px;
+	}
+	.section h1 {
+		font-size: 1.2em;
+	}
+	.section .text1, .text2, h4, a {
+		font-size: 14px;
+	}
+	.section .text2 {
+		word-spacing: 0;
+	}
+	.card-bg-green h4, ol {
+		font-size: 14px;
+	}
+	.card-bg-red h4, th, td {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 540px) {
+	.header-top {
+		flex-wrap: wrap;
+	}
+	.header-top img {
+		width: 100%;
+	 	margin: auto;
+	}
+	.section {
+		width: 100%;
+		margin: auto;
+		flex: 0 1 300px;
+	}
+}
